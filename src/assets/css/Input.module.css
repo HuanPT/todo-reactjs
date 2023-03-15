@@ -1,0 +1,28 @@
+.inputGroup {
+    height: 40px;
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+input {
+    border: 0;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input:not([type="checkbox"]):not([type="radio"]) {
+    min-width: 350px;
+}
+
+/* input {
+    min-width: 300px;
+    height: 100%;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+} */

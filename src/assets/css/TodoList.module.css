@@ -1,0 +1,13 @@
+.list {
+    max-height: 210px;
+    margin-top: 20px;
+    overflow: auto;
+    padding: 0;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+.list::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
